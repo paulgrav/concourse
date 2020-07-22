@@ -1,0 +1,14 @@
+---
+platform: linux
+
+image_resource:
+  type: registry-image
+  source:
+    repository: python
+    tag: 3
+
+inputs:
+- name: project-git-repo
+
+run:
+  path: project-git-repo/ci/build_image.sh
