@@ -8,7 +8,7 @@ image_resource:
     tag: 3
 
 inputs:
-- name: project-repo
+- name: project-git-repo
 
 run:
-  path: project-repo/ci/build_image.sh
+  path: project-git-repo/ci/build_image.sh
